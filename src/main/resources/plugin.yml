@@ -1,0 +1,16 @@
+name: ValoratMC
+main: fr.delenclosnathan.Main
+version: 1.0
+commands:
+  helloworld:
+      description: Commande principale du plugin
+      usage: /helloworld
+      aliases: [hello, hi]
+  sethome:
+      description: Commande pour définir un home
+      usage: /sethome <home>
+      aliases: [sh]
+  home:
+    description: Commande pour se téléporter à un home
+    usage: /home <home>
+    aliases: [h]
